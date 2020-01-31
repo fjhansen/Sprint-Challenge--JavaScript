@@ -39,7 +39,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: 
+// Explanation: closures give us the ability to put functions together if variables are missing. This is made possible through accessing the lexical scope.
 
 
 const external = "I'm outside the function";
